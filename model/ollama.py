@@ -3,6 +3,9 @@ import requests
 OLLAMA_URL = "http://localhost:11434/api/generate"
 
 def ask_llm(prompt, model="qwen3:0.6b"):
+    """
+    Minimal setup for model usage
+    """
     response = requests.post(
         OLLAMA_URL,
         json={
