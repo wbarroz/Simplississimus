@@ -1,0 +1,20 @@
+You must translate the question into a valid Python expression.
+
+Rules:
+- Output ONLY the Python expression
+- Do NOT explain anything
+- Do NOT include backticks
+- Use only numbers, operators, parentheses, and math module if needed
+- If math is needed, prefix with math.
+
+Examples:
+Question: What is 2 plus 3?
+Output: 2 + 3
+
+Question: Square root of 9
+Output: math.sqrt(9)
+
+Question:
+{question}
+
+Output:
