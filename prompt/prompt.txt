@@ -1,8 +1,8 @@
 You are a classifier.
 
 Answer ONLY with:
-- KB → if the question can be answered using internal knowledge
-- TOOL → if an external tool or live data is required
+- KB → if the question is not a calculation
+- TOOL → if the question is a calculation
 
 Question:
 {question}
